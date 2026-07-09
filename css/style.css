@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+body {
+  background-color: #0F0A1F;
+  font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+  font-family: orbitron, 'Arial Narrow Bold', sans-serif;
+  font-size: 55px;
+  color: #5d3bf6e0;
+  text-align: center;
+}
+h3 {
+  font-family: 'orbitron', 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: #F8FAFC;
+  text-align: center;
+}
+p {
+  font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: #F8FAFC;
+  text-align: center;
+}
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button{
+  display: flex;
+  background-color: #1B1534;
+  font-size: 20px;
+  font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+  color: #F8FAFC;
+  gap: 10px;
+  border: 2px solid rgb(107, 42, 212);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: #5900ff91;
+  transform: scale(1.05);
+}
+ul {
+  font-family: orbitron, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  text-decoration: solid;
+  color: #8cbcf7;
+}
+.card1{
+    font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+    transform: translateY(2px);
+    transition: opacity .8s ease, transform .8s ease;
+    font-size: 20px;
+    background-color: #1E293B;
+    color: #F8FAFC;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(228, 213, 255, 0.2);
+}
+.card{
+    font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity .8s ease, transform .8s ease;
+    font-size: 20px;
+    background-color: #1E293B;
+    color: #F8FAFC;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(228, 213, 255, 0.2);
+}
+.card.show {
+    font-family: 'Google Sans', 'Arial Narrow Bold', sans-serif;
+    opacity: 1;
+    transform: translateY(0);
+}
+.parallax{
+    height:500px;
+
+    background-image:url("/source/pcg2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.parallax1{
+    height:500px;
+
+    background-image:url("/source/pcr1.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.parallax2{
+    height:500px;
+
+    background-image:url("/source/pcr2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.parallax3{
+    height:500px;
+
+    background-image:url("/source/pcr3.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.parallax4{
+    height:500px;
+
+    background-image:url("/source/pcr4.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.overlay{
+    background:rgba(0,0,0,.5);
+    color:white;
+    padding:30px 60px;
+    border-radius:15px;
+}
+.whatsapp-icon{
+    font-size: 25px;
+    color: #5d3bf6e0;
+}
